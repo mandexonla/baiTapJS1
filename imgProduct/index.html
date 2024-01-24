@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <form name="SunShine">
+        <p>
+            <label>
+                Product Name:
+                <input type="text" name="pro" id="pro"/>
+            </label>
+            <label>
+                Product Picture:
+                <input type="file" name="image" id="image" accept="image/*"/>
+            </label>
+            <label>
+                Product price:
+                <input type="number" name="pri" id="pri"/>
+            </label>
+        </p>
+    </form>
+    <button type="button" onclick="add()">ADD</button>
+    <div>
+        <h2>Điện thoại nổi bật nhất</h2>
+        <ul id="cart"></ul>
+    </div>
+     <button type="button1" onclick="datmua()">Đặt mua</button>
+   
+    
+</body>
+</html>

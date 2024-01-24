@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <h1>New Product</h1>
+    <hr />
+    <form name="frm">
+      <p>
+        <label>
+          Product name
+          <input type="text" name="pname" id="pname" />
+        </label>
+        <label>
+          Quantity
+          <input type="text" name="qty" id="qty" />
+        </label>
+        <br />
+        <br />
+        <label>
+          Unit Price
+          <input type="text" name="price" id="price" />
+        </label>
+        <label>
+          Discount
+          <input type="text" name="dc" id="dc" />
+        </label>
+        <br />
+        <br />
+        <button type="button" onclick="sell()">Sell</button>
+        <button type="button" onclick="cancel()">Cancel</button>
+      </p>
+    </form>
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Product Name</th>
+          <th>Quantity</th>
+          <th>Unit Price</th>
+          <th>Discount</th>
+          <th>Subtotal</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </body>
+</html>

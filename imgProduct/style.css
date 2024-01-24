@@ -1,0 +1,25 @@
+       
+        #cart {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .cart-item {
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+
+        .cart-item img {
+            width: 446px;
+            height: auto;
+            margin-right: 10px;
+        }   
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
